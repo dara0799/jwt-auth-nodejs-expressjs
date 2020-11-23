@@ -1,0 +1,12 @@
+cookies: store data in a user's browser
+1. request send to server, server create a cookie in that moment in time
+2. in server, we can decide how long a cookie in browser
+3. cookie send back to browser in the server response
+4. browser register a cookie, cookie is storing data in browser
+5. browser send request with cookie thad already made before
+https://owasp.org/www-community/attacks/csrf
+
+json web token signin
+headers = tells the server what type of signature is being used (meta)
+payload = used to identify the user (e.g. contains user id)
+signature = makes the token secure (like a stamp of authenticity)
